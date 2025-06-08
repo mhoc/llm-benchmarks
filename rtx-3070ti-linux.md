@@ -48,3 +48,19 @@ eval rate:            213.33 tokens/s
 ```
 189.29 tok/sec 1876 tokens 0.03s to first token Stop reason: EOS Token Found
 ```
+
+## `gemma-3-4b` (lmstudio)
+
+
+
+> Write me a long story about a little airplane who could
+
+```
+18.20 tok/sec 1215 tokens 0.23s to first token Stop reason: EOS Token Found
+```
+
+> Write a python program which implements a basic chess engine
+
+```
+16.18 tok/sec 2637 tokens 0.19s to first token Stop reason: EOS Token Found
+```
