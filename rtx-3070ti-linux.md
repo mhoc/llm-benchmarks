@@ -7,7 +7,7 @@
 | **Memory**           | 48 GiB            |
 | **GPU**              | RTX 3070 Ti       |
 
-## `gemma3:1b`
+## `gemma-3-1b` (ollama)
 
 > Write me a long story about a little airplane who could
 
@@ -33,4 +33,18 @@ prompt eval rate:     955.03 tokens/s
 eval count:           1704 token(s)
 eval duration:        7.987534315s
 eval rate:            213.33 tokens/s
+```
+
+## `gemma-3-1b` (lmstudio)
+
+> Write me a long story about a little airplane who could
+
+```
+190.46 tok/sec 1102 tokens 0.03s to first token Stop reason: EOS Token Found
+```
+
+> Write a python program which implements a basic chess engine
+
+```
+189.29 tok/sec 1876 tokens 0.03s to first token Stop reason: EOS Token Found
 ```
